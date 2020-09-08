@@ -1,0 +1,16 @@
+﻿<Window x:Class="GameLife.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameLife"
+        mc:Ignorable="d"
+        Title="GameLife" Height="450" Width="600" ResizeMode="NoResize" Icon="GameLife.ico" >
+    <Grid>
+        <Grid Name="GameGridField" Height="344" Margin="10,10,10,0" VerticalAlignment="Top" Background="#FFEA9292"/>
+        <Button Name="StartBnt" Content="Start" HorizontalAlignment="Left" Margin="10,372,0,10" Width="75" Click="StartBnt_Click"/>
+        <Label Name="NumberCellsLbl" Content="Number of cells: " HorizontalAlignment="Left" Margin="90,385,0,0" RenderTransformOrigin="0.513,0.731" Height="26" VerticalAlignment="Top"/>
+        <Slider Name="NumberCellsSldr" Minimum="10" Maximum="50" HorizontalAlignment="Left" Margin="90,359,0,0" Width="138" ValueChanged="NumberCellsSldr_ValueChanged" Height="18" VerticalAlignment="Top"/>
+        <Button Name="RandomBnt" Content="Random" HorizontalAlignment="Left" Margin="233,372,0,10" Width="75" Click="RandomBnt_Click"/>
+    </Grid>
+</Window>
