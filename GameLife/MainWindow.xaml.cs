@@ -20,16 +20,10 @@ namespace GameLife
             InitializeComponent();
             _timer = new DispatcherTimer();
             _timer.Interval = TimeSpan.FromSeconds(1);
-            _timer.Tick += Step;
+            _timer.Tick += NextGeneration;
         }
-        private void Reload()
+        private void ReloadGrid()
         {
-            _life.NextGeneration();
-            if (_life.LivingСells <= 0)
-            {
-                _timer.Stop();
-                MessageBox.Show("No one survived");
-            }
             GameGridField.RowDefinitions.Clear();
             GameGridField.ColumnDefinitions.Clear();
             for (int i = 0; i < _life.NumberCells; i++)
@@ -56,6 +50,7 @@ namespace GameLife
                     GameGridField.Children.Add(buttons[i, j]);
                 }
             }
+            InfoLbl.Content = $"Amount of generation: {_life.AmountGeneration}";
         }
         private void SetActiveCell(object sender, RoutedEventArgs e)
         {
@@ -65,9 +60,15 @@ namespace GameLife
             buttons[i, j].Background = Brushes.Red;
             _life.SetCell(i, j);
         }
-        public void Step(object o, EventArgs e)
+        public void NextGeneration(object o, EventArgs e)
         {
-            Reload();
+            _life.NextGeneration();
+            if (_life.LivingСells <= 0)
+            {
+                _timer.Stop();
+                MessageBox.Show("No one survived");
+            }
+            ReloadGrid();
         }
         private void StartBnt_Click(object sender, RoutedEventArgs e)
         {
@@ -82,7 +83,7 @@ namespace GameLife
             _timer.Stop();
             _life = new LifeSimulation((int)NumberCellsSldr.Value);
             buttons = new Button[_life.NumberCells, _life.NumberCells];
-            Reload();
+            ReloadGrid();
         }
     }
 }

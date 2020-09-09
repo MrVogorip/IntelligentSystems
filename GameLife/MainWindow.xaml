@@ -12,5 +12,6 @@
         <Label Name="NumberCellsLbl" Content="Number of cells: " HorizontalAlignment="Left" Margin="90,385,0,0" RenderTransformOrigin="0.513,0.731" Height="26" VerticalAlignment="Top"/>
         <Slider Name="NumberCellsSldr" Minimum="10" Maximum="50" HorizontalAlignment="Left" Margin="90,359,0,0" Width="138" ValueChanged="NumberCellsSldr_ValueChanged" Height="18" VerticalAlignment="Top"/>
         <Button Name="RandomBnt" Content="Random" HorizontalAlignment="Left" Margin="233,372,0,10" Width="75" Click="RandomBnt_Click"/>
+        <Label Name="InfoLbl" Content="Info" HorizontalAlignment="Left" Margin="313,385,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

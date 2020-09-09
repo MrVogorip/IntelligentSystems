@@ -6,6 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLife", "GameLife\GameLife.csproj", "{8C95E055-DF5F-47CE-9002-0E6ACC92F836}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{AEDFE647-BE1F-4D04-8546-837D81123057}"
+	ProjectSection(SolutionItems) = preProject
+<<<<<<< HEAD
+		Screenshots\LifeExample.gif = Screenshots\LifeExample.gif
+=======
+		..\..\..\Desktop\LifeExample.gif = ..\..\..\Desktop\LifeExample.gif
+>>>>>>> 029e0fe... Lab 1 v3.1 Add example
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
