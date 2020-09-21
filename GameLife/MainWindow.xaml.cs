@@ -14,7 +14,7 @@ namespace GameLife
     {
         private DispatcherTimer _timer;
         private LifeSimulation _life;
-        private Button[,] buttons;
+        private Button[,] _buttons;
         public MainWindow()
         {
             InitializeComponent();
@@ -34,20 +34,20 @@ namespace GameLife
             {
                 for (int j = 0; j < _life.NumberCells; j++)
                 {
-                    buttons[i, j] = new Button();
-                    buttons[i, j].Name = $"b{i}_{j}";
-                    buttons[i, j].Click += new RoutedEventHandler(SetActiveCell);
-                    Grid.SetColumn(buttons[i, j], j);
-                    Grid.SetRow(buttons[i, j], i);
+                    _buttons[i, j] = new Button();
+                    _buttons[i, j].Name = $"b{i}_{j}";
+                    _buttons[i, j].Click += new RoutedEventHandler(SetActiveCell);
+                    Grid.SetColumn(_buttons[i, j], j);
+                    Grid.SetRow(_buttons[i, j], i);
                     if (_life.Cells[i, j].Actual)
                     {
-                        buttons[i, j].Background = Brushes.Red;
+                        _buttons[i, j].Background = Brushes.Red;
                     }
                     else
                     {
-                        buttons[i, j].Background = Brushes.White;
+                        _buttons[i, j].Background = Brushes.White;
                     }
-                    GameGridField.Children.Add(buttons[i, j]);
+                    GameGridField.Children.Add(_buttons[i, j]);
                 }
             }
             InfoLbl.Content = $"Amount of generation: {_life.AmountGeneration}";
@@ -57,7 +57,7 @@ namespace GameLife
             string[] indexes = (sender as Button).Name.Split(new char[] { 'b', '_' });
             int i = int.Parse(indexes[1]);
             int j = int.Parse(indexes[2]);
-            buttons[i, j].Background = Brushes.Red;
+            _buttons[i, j].Background = Brushes.Red;
             _life.SetCell(i, j);
         }
         public void NextGeneration(object o, EventArgs e)
@@ -82,7 +82,7 @@ namespace GameLife
         {
             _timer.Stop();
             _life = new LifeSimulation((int)NumberCellsSldr.Value);
-            buttons = new Button[_life.NumberCells, _life.NumberCells];
+            _buttons = new Button[_life.NumberCells, _life.NumberCells];
             ReloadGrid();
         }
     }

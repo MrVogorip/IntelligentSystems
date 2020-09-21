@@ -1,0 +1,16 @@
+﻿<Window x:Class="Maze.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Maze"
+        mc:Ignorable="d"
+        Title="Maze" Height="450" Width="600" ResizeMode="NoResize" Icon="Maze.ico" >
+    <Grid Background="#FF5858BD">
+        <Grid Name="MazeGridField" Height="344" Margin="10,10,10,0" VerticalAlignment="Top"/>
+        <Button Name="StartBnt" Content="Start" HorizontalAlignment="Left" Margin="10,372,0,10" Width="75" Click="StartBnt_Click" />
+        <Label Name="SizeFieldLbl" Content="Size field: " HorizontalAlignment="Left" Margin="90,385,0,0" RenderTransformOrigin="0.513,0.731" Height="26" VerticalAlignment="Top"/>
+        <Slider Name="SizeFieldSldr" Minimum="15" Maximum="35" HorizontalAlignment="Left" Margin="90,359,0,0" Width="138" Height="18" VerticalAlignment="Top" ValueChanged="SizeFieldSldr_ValueChanged"/>
+        <Button Name="GenerateBnt" Content="Generate" HorizontalAlignment="Left" Margin="233,372,0,10" Width="75" Click="GenerateBnt_Click"/>
+    </Grid>
+</Window>
