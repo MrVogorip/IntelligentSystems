@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLife", "GameLife\GameLi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{AEDFE647-BE1F-4D04-8546-837D81123057}"
 	ProjectSection(SolutionItems) = preProject
+		Screenshots\FaceRecExample.gif = Screenshots\FaceRecExample.gif
 		Screenshots\LifeExample.gif = Screenshots\LifeExample.gif
 		Screenshots\MazeExample.gif = Screenshots\MazeExample.gif
 		Screenshots\SpeechExample.gif = Screenshots\SpeechExample.gif
@@ -20,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceRec", "FaceRec\FaceRec.csproj", "{A44FC37D-B470-4DAD-B439-54DBC752FB1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +42,10 @@ Global
 		{4C32A00F-DF6B-400A-8C09-93993A577E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C32A00F-DF6B-400A-8C09-93993A577E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C32A00F-DF6B-400A-8C09-93993A577E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44FC37D-B470-4DAD-B439-54DBC752FB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44FC37D-B470-4DAD-B439-54DBC752FB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44FC37D-B470-4DAD-B439-54DBC752FB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44FC37D-B470-4DAD-B439-54DBC752FB1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

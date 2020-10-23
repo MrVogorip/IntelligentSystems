@@ -22,3 +22,9 @@ Lab 3
 Recognize audio information and display results
 
 ![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/SpeechExample.gif)
+
+Lab 4
+
+Recognize graphic information and display the results
+
+![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/FaceRecExample.gif)
