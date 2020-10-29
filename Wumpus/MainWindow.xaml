@@ -1,0 +1,21 @@
+﻿<Window x:Class="Wumpus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wumpus"
+        mc:Ignorable="d"
+        Title="Wumpus" Height="450" Width="600" ResizeMode="NoResize" Icon="Wumpus.ico">
+    <Grid Background="#FF967BF3">
+        <Label Name="StatusLbl" Content="Hunt the wumpus" Margin="10,10,10,0" VerticalAlignment="Top" Height="302" Background="#FF73D8D4" FontSize="18"/>
+        <Grid Name="ControlGrid" HorizontalAlignment="Left" Height="130" Margin="31,281,0,0" VerticalAlignment="Top" Width="553">
+            <RadioButton IsChecked="True" GroupName="ActionRB" Content="Move" HorizontalAlignment="Left" Margin="22,67,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+            <RadioButton GroupName="ActionRB" Content="Shoot" HorizontalAlignment="Left" Margin="22,87,0,-2" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+            <Button x:Name="ChoiceRoomBtm1" Content="1" HorizontalAlignment="Left" Margin="206,68,-180,0" VerticalAlignment="Top" Width="74" Click="ChoiceRoomBtm_Click"/>
+            <Button x:Name="ChoiceRoomBtm2" Content="2" HorizontalAlignment="Left" Margin="285,68,-259,0" VerticalAlignment="Top" Width="74" Click="ChoiceRoomBtm_Click"/>
+            <Button x:Name="ChoiceRoomBtm3" Content="3" HorizontalAlignment="Left" Margin="364,68,-338,0" VerticalAlignment="Top" Width="74" Click="ChoiceRoomBtm_Click"/>
+            <Label Content="Where to?" HorizontalAlignment="Left" Margin="206,36,-170,0" VerticalAlignment="Top"/>
+            <Label Content="Shoot or move?" HorizontalAlignment="Left" Margin="22,36,-16,0" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Window>

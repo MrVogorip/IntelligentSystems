@@ -15,11 +15,14 @@ Algorithm for generating a maze and an algorithm for finding an exit from a maze
 
 Screenshot:
 
+
 ![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/MazeExample.gif)
 
 Lab 3
 
 Recognize audio information and display results
+
+Screenshot:
 
 ![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/SpeechExample.gif)
 
@@ -27,4 +30,14 @@ Lab 4
 
 Recognize graphic information and display the results
 
+Screenshot:
+
 ![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/FaceRecExample.gif)
+
+Lab 5
+
+An application that implements the classic Hunt the Wumpus
+
+Screenshot:
+
+![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/WumpusExample.gif)
