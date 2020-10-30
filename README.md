@@ -41,3 +41,11 @@ An application that implements the classic Hunt the Wumpus
 Screenshot:
 
 ![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/WumpusExample.gif)
+
+Lab 6
+
+Building an expert system of a relational type in the form of a decision tree using a transition table.
+
+Screenshot:
+
+![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/SloverExample.gif)

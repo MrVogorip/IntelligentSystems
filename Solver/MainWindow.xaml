@@ -1,0 +1,15 @@
+﻿<Window x:Class="Solver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Solver"
+        mc:Ignorable="d"
+        Title="Solver" Height="300" Width="600" ResizeMode="NoResize" Icon="Solver.ico" >
+    <Grid Background="#FF3AA2DE">
+        <Label Name="QuestionsLbl" Content="" Margin="10,10,10,0" VerticalAlignment="Top" Height="114" FontSize="14"/>
+        <Grid Margin="10,129,10,10">
+            <StackPanel Name="AnswerPanel" HorizontalAlignment="Left" Height="56" Margin="10,10,0,0" VerticalAlignment="Top" Width="554"/>
+        </Grid>
+    </Grid>
+</Window>

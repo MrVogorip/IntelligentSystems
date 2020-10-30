@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots"
 		Screenshots\FaceRecExample.gif = Screenshots\FaceRecExample.gif
 		Screenshots\LifeExample.gif = Screenshots\LifeExample.gif
 		Screenshots\MazeExample.gif = Screenshots\MazeExample.gif
+		Screenshots\SloverExample.gif = Screenshots\SloverExample.gif
 		Screenshots\SpeechExample.gif = Screenshots\SpeechExample.gif
 		Screenshots\WumpusExample.gif = Screenshots\WumpusExample.gif
 	EndProjectSection
@@ -26,6 +27,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceRec", "FaceRec\FaceRec.csproj", "{A44FC37D-B470-4DAD-B439-54DBC752FB1B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wumpus", "Wumpus\Wumpus.csproj", "{B0B7A9DD-3C21-4601-A434-E0E3DCD87CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solver", "Solver\Solver.csproj", "{72B4FCA8-0231-4D6A-898D-AE93EB502410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +56,10 @@ Global
 		{B0B7A9DD-3C21-4601-A434-E0E3DCD87CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0B7A9DD-3C21-4601-A434-E0E3DCD87CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0B7A9DD-3C21-4601-A434-E0E3DCD87CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B4FCA8-0231-4D6A-898D-AE93EB502410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B4FCA8-0231-4D6A-898D-AE93EB502410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B4FCA8-0231-4D6A-898D-AE93EB502410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B4FCA8-0231-4D6A-898D-AE93EB502410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
