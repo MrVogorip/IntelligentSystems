@@ -9,14 +9,12 @@ namespace Wumpus
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly Game _game;
+        private Game _game;
         private bool _isShootActionCommand;
         public MainWindow()
         {
             InitializeComponent();
-            _game = new Game();
-            _game.Move(_game.CurrentRoom);
-            FormUpdate();
+            GameReset();
         }
         private void ChoiceRoomBtm_Click(object sender, RoutedEventArgs e)
         {
@@ -32,8 +30,15 @@ namespace Wumpus
             FormUpdate();
             if (_game.IsLose || _game.IsWin)
             {
-                ControlGrid.Children.Clear();
+                MessageBox.Show("YOU " + (_game.IsLose ? "LOSE" : "WIN"));
+                GameReset();
             }
+        }
+        private void GameReset()
+        {
+            _game = new Game();
+            _game.Move(_game.CurrentRoom);
+            FormUpdate();
         }
         private void FormUpdate()
         {
