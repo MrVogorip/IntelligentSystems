@@ -3,7 +3,7 @@ My labs for intelligent systems
 
 Lab 1
 
-Intellectual system on example of the game "Life"
+Intellectual system on example of the game "Life".
 
 Screenshot:
 
@@ -11,7 +11,7 @@ Screenshot:
 
 Lab 2
 
-Algorithm for generating a maze and an algorithm for finding an exit from a maze with visualization
+Algorithm for generating a maze and an algorithm for finding an exit from a maze with visualization.
 
 Screenshot:
 
@@ -20,7 +20,7 @@ Screenshot:
 
 Lab 3
 
-Recognize audio information and display results
+Recognize audio information and display results.
 
 Screenshot:
 
@@ -28,7 +28,7 @@ Screenshot:
 
 Lab 4
 
-Recognize graphic information and display the results
+Recognize graphic information and display the results.
 
 Screenshot:
 
@@ -36,7 +36,7 @@ Screenshot:
 
 Lab 5
 
-An application that implements the classic Hunt the Wumpus
+An application that implements the classic Hunt the Wumpus.
 
 Screenshot:
 
@@ -49,3 +49,11 @@ Building an expert system of a relational type in the form of a decision tree us
 Screenshot:
 
 ![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/SloverExample.gif)
+
+Lab 7
+
+Exact Inference in Bayes Nets. Algorithms in Russell and Norvig.
+
+Screenshot:
+
+![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/BayesianExample.gif)
