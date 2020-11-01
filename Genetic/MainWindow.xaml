@@ -1,0 +1,15 @@
+﻿<Window x:Class="Genetic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Genetic"
+        mc:Ignorable="d"
+        Title="Genetic" Height="450" Width="600" ResizeMode="NoResize" Icon="Genetic.ico">
+    <Grid Background="#FF6780F1">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="50,0,0,100">
+            <StackPanel Name="PopulationPanel" Margin="0,0,0,0"/>
+        </ScrollViewer>
+        <Label Name="FinalResult" Content="Final Result" Margin="50,326,10,10" Background="#FFF54D4D"/>
+    </Grid>
+</Window>

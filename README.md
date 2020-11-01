@@ -48,3 +48,15 @@ Markov chains for text generation.
 Screenshot:
 
 ![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/MarkovExample.gif)
+
+Artificial neural network implementation. Investigate the effect of the number of nodes in the network in the hidden layer on the result.
+
+Screenshot:
+
+![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/NetworkExample.gif)
+
+Genetic evolutionary algorithm for solving maximization optimization problem.
+
+Screenshot:
+
+![Image alt](https://github.com/MrVogorip/IntelligentSystems/blob/master/Screenshots/GeneticExample.gif)
