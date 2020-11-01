@@ -1,0 +1,14 @@
+﻿<Window x:Class="Markov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Markov"
+        mc:Ignorable="d"
+        Title="Markov" Height="450" Width="600" ResizeMode="NoResize" Icon="Markov.ico">
+    <Grid Background="#FF3DA262">
+        <Button Name="OpenBnt" Content="Open" Margin="10,335,501,29" Click="OpenBnt_Click"/>
+        <Button Name="GenerateBnt" Content="Generate" Margin="110,335,401,29" Click="GenerateBnt_Click"/>
+        <TextBlock Name="PrintInfo" Margin="10,10,10,91" TextWrapping="Wrap" Text="" FontSize="16"/>
+    </Grid>
+</Window>
